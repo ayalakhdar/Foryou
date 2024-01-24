@@ -1,0 +1,29 @@
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+    background-color: #e7f0ac;
+}
+.text{
+    font-family: 'Nunito';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#pic{
+    width: 380px;
+}
+.lowertxt{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+    font-weight: bold;
+}

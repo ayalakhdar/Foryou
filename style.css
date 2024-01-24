@@ -1,0 +1,55 @@
+body{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 90vh;
+    background-color: #e7f0ac;
+}
+#no_but{
+    position: absolute;
+    margin-left: 200px;
+    transition: 5ms;
+}
+#yes_but{
+    position: absolute;
+    margin-right: 200px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+.but{
+    background-color: #f0a3a3;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    transition: background-color 0.3s ease;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1{
+    color: #e08f8f;
+    font-family: 'Nunito';
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0px;       
+}
+.gifcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    
+}
